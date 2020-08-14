@@ -41,29 +41,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        /*appBar: AppBar(
-          title: Row(
-            children: <Widget>[
-              Text(
-                'NEWS',
-                style: TextStyle(
-                    color: Theme.of(context).primaryColor,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20.0),
-              ),
-              SizedBox(
-                width: 5,
-              ),
-              Icon(
-                Icons.equalizer,
-                color: Theme.of(context).primaryColor,
-                size: 30.0,
-              )
-            ],
-          ),
-          elevation: 10.0,
-          backgroundColor: Theme.of(context).accentColor,
-        ),*/
         body: Views(),
       ),
     );
